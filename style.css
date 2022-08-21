@@ -1,0 +1,120 @@
+body{
+    color: rgba(255, 255, 255, 0.747);
+    background-color: black;
+
+}
+#eror{
+    width: 11rem;
+    margin: 0px;
+    position: relative;left: 10em;
+    bottom: -1mm;
+    color: rgb(26, 238, 61);
+    text-shadow: 2px 2px 1mm rgb(7, 1, 1);
+
+}
+input{
+    margin: 0;
+    width: 1.2555em;
+    height: 1em;
+    background-color: #6943FF;
+    color:hsla(64, 91%, 50%, 0.89);
+    font-size: 3em;
+    transition:width 2s ease-in-out;
+    border:1mm solid white;
+    font-style: italic;
+    padding-left: 0.1em;
+    border-radius: 0.3em;
+    font-family: Aloevera;
+    text-align: center;
+}
+@font-face {
+    font-family:Aloevera ;
+    src: url("Aloevera-OVoWO.ttf");
+}
+input:focus{
+    width: 4em;
+    outline:none;
+
+}
+.all{
+    
+    width: 30rem ;
+    text-align: center;    
+    border: 0px ;
+     position: relative;
+    left: 20em;
+    top: 2em;  
+}
+h1{
+  margin: 0px 0px 1em 0mm;
+}
+button{
+    background-color: #16478b;
+    outline: none;
+    cursor: pointer;
+    width: 6em;
+     margin: 1em 0mm 1em 0mm;  
+     padding: 0.6em;
+     border-radius: 0.5em;
+     border: 0px solid;
+     box-shadow: 0.2em -0.2em 1em rgb(2, 0, 0);
+}
+button:active{
+    background-color: rgba(61, 58, 99, 0.281);
+    opacity: 1;
+    position: relative;
+    top: 0.5em;
+    box-shadow: -0.2em 0.2em 1em rgb(8, 0, 0);
+
+}
+.head{
+    background-color: #6943FF;
+    padding: 0.1em;
+    margin-bottom: 0px;
+}
+.schead{
+    padding: 0.1em;
+    margin: 0px;
+    background-color: #1d1549;
+
+}
+h2{
+    margin: 0px;
+    padding: 0.1em 0mm 1em 0mm;
+}p{
+    color: rgba(52, 236, 15, 0.993);
+    font-size:0.9em;
+    margin: 0px;
+  margin-bottom: 1.555em;
+  position: relative;
+  bottom: 1em;
+}
+.lengrh{
+    width: 25em;
+    border: none;
+    border-radius: 0.5em;
+    position: relative;
+    left: 2em;
+    top: 1em;
+    text-align: center;
+    background-color:#273549 ;
+}
+.volume{
+    background-color:#273549 ;
+    width: 25em;
+    border: none;
+    border-radius: 0.5em;
+    position: relative;
+    left: 2em;
+    top: 1em;
+}
+.Mass{
+    background-color:#273549 ;
+    width: 25em;
+    border: none;
+    border-radius: 0.5em;
+    position: relative;
+    left: 2em;
+    top: 1em;
+    
+}
